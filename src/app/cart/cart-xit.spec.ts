@@ -15,7 +15,7 @@ describe('get info and action of  book with xit and it', () => {
           expect(priceBook).toEqual(45);
         });
 
-  it('price of book in cart with after discount' , () => {
+  it('price of book in cart after discount' , () => {
           const priceBookWithDiscount = 45 * 0.90;
           expect(priceBookWithDiscount).toEqual(40.5);
         });
